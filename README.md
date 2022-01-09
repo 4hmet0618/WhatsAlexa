@@ -83,18 +83,16 @@ If you are concerned about that, Then you can just use bot on a [Fake Number](ht
 
 There are **50+** Features/Commands Are there in **this bot!**
 
-<!--
 ## ❗️ Disclaimer ❗️
 
 The name **'WhatsAlexa'**, Which includes the word
 **'Whats'**, confuses users because of the name of the familiar
 bot **WhatsAsena**. The users are thinking that the
 **'WhatsAlexa' bot is a modified version of the 'WhatsAsena'**.
-This is **extremely wrong** and has nothing to do with WhatsAsena.
-Also You can check our docker file.
-**We use 'node: 15.2.0-alpine3.10' instead of 'whatsasena: latest'**.
-So please don't Compare **WhatsAlexa** and **WhatsAsena**.
--->
+This is **extremely wrong**. This is not modified version of **'WhatsAsena'**
+Also You can check our **[Dockerfile](https://github.com/TOXIC-DEVIL/WhatsAlexa/blob/master/alexa/Dockerfile).**
+**We use 'node:latest' instead of 'whatsasena:latest'**.
+So please don't Compare **WhatsAlexa** and **WhatsAsena** Wrongly.
 
 ## ⚠ Warning ⚠
 
