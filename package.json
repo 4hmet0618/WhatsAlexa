@@ -4,7 +4,7 @@
   "description": "WhatsAlexa is a Helper WhatsApp Bot Written with Baileys Which is hosted on Heroku Cloud Server. Also Alexa has a Lot of Commands/Features, Including Artificial Intelligence [ AI ] Features/Commands.",
   "main": "./WhatsAlexa/alexa.js",
   "scripts": {
-    "start": "supervisor -s alexa.js"
+    "start": "node alexa.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   ],
   "author": "TOXIC-DEVIL",
   "developer": "TOXIC-DEVIL",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TOXIC-DEVIL/WhatsAlexa/issues"
   },
@@ -65,6 +65,9 @@
     "sqlite3": "5.0.0",
     "solenolyrics": "^5.0.0",
     "translatte": "^3.0.0",
-    "wikijs": "^6.0.1"
+    "wikijs": "^6.0.1",
+    "wikijs": "^6.0.1", 
+    "yt-search": "^2.7.4",
+    "ytdl-core": "^4.8.3"
   }
 }
