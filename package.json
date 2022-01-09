@@ -65,8 +65,6 @@
     "sqlite3": "5.0.0",
     "solenolyrics": "^5.0.0",
     "translatte": "^3.0.0",
-    "wikijs": "^6.0.1", 
-    "yt-search": "^2.7.4",
-    "ytdl-core": "^4.8.3"
+    "wikijs": "^6.0.1"
   }
 }
