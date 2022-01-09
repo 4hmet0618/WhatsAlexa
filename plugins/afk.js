@@ -23,55 +23,7 @@ function secondsToHms(d) {
 }
 
 WhatsAlexa.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (Config.AFKMSG == 'default') {
-
-        if (AFK.isAfk && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
-            (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
-            if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
-                message.mention.map(async (jid) => {
-                    if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
-                        await message.client.sendMessage(message.jid,Lang.AFK_TEXT + '\n' + 
-                        (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                        (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});            
-                    }
-                })
-            } else if (message.jid.includes('-') && message.reply_message !== false) {
-                if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
-                    await message.client.sendMessage(message.jid,Lang.AFK_TEXT + '\n' + 
-                        (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                        (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});
-                }
-            } else {
-                await message.client.sendMessage(message.jid,Lang.AFK_TEXT + '\n' + 
-                (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});
-            }
-        }
-    }
-    else {
-        if (AFK.isAfk && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
-            (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
-            if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
-                message.mention.map(async (jid) => {
-                    if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
-                        await message.client.sendMessage(message.jid,Config.AFKMSG + '\n' + 
-                        (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                        (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});            
-                    }
-                })
-            } else if (message.jid.includes('-') && message.reply_message !== false) {
-                if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
-                    await message.client.sendMessage(message.jid,Config.AFKMSG + '\n' + 
-                        (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                        (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});
-                }
-            } else {
-                await message.client.sendMessage(message.jid,Config.AFKMSG + '\n' + 
-                (AFK.reason !== false ? '\n*' + Lang.REASON + ':* ```' + AFK.reason + '```' : '') + 
-                (AFK.lastseen !== 0 ? '\n*' + Lang.LAST_SEEN + ':* ```' + secondsToHms(Math.round((new Date()).getTime() / 1000) - AFK.lastseen) + ' once```' : ''), MessageType.text, {quoted: message.data});
-            }
-        }
-    }
+var _0x267d=["\x41\x46\x4B\x4D\x53\x47","\x64\x65\x66\x61\x75\x6C\x74","\x69\x73\x41\x66\x6B","\x67\x2E\x75\x73","\x65\x6E\x64\x73\x57\x69\x74\x68","\x6A\x69\x64","\x6D\x65\x6E\x74\x69\x6F\x6E","\x6C\x65\x6E\x67\x74\x68","\x72\x65\x70\x6C\x79\x5F\x6D\x65\x73\x73\x61\x67\x65","\x2D","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x40","\x73\x70\x6C\x69\x74","\x75\x73\x65\x72","\x63\x6C\x69\x65\x6E\x74","\x41\x46\x4B\x5F\x54\x45\x58\x54","\x0A","\x72\x65\x61\x73\x6F\x6E","\x0A\x2A","\x52\x45\x41\x53\x4F\x4E","\x3A\x2A\x20\x60\x60\x60","\x60\x60\x60","","\x6C\x61\x73\x74\x73\x65\x65\x6E","\x4C\x41\x53\x54\x5F\x53\x45\x45\x4E","\x67\x65\x74\x54\x69\x6D\x65","\x72\x6F\x75\x6E\x64","\x20\x6F\x6E\x63\x65\x60\x60\x60","\x74\x65\x78\x74","\x64\x61\x74\x61","\x73\x65\x6E\x64\x4D\x65\x73\x73\x61\x67\x65","\x6D\x61\x70"];if(Config[_0x267d[0]]== _0x267d[1]){if(AFK[_0x267d[2]]&& ((!message[_0x267d[5]][_0x267d[4]](_0x267d[3])) || (message[_0x267d[5]][_0x267d[4]](_0x267d[3])&& ((message[_0x267d[6]]!== false&& message[_0x267d[6]][_0x267d[7]]!== 0)|| message[_0x267d[8]]!== false)))){if(message[_0x267d[5]][_0x267d[10]](_0x267d[9])&& (message[_0x267d[6]]!== false&& message[_0x267d[6]][_0x267d[7]]!== 0)){message[_0x267d[6]][_0x267d[31]](async (_0x497dx1)=>{if(message[_0x267d[14]][_0x267d[13]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]=== _0x497dx1[_0x267d[12]](_0x267d[11])[0]){ await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Lang[_0x267d[15]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}})}else {if(message[_0x267d[5]][_0x267d[4]](_0x267d[3])&& message[_0x267d[8]]!== false){if(message[_0x267d[8]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]=== message[_0x267d[14]][_0x267d[13]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]){ await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Lang[_0x267d[15]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}}else { await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Lang[_0x267d[15]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}}}}else {if(AFK[_0x267d[2]]&& ((!message[_0x267d[5]][_0x267d[4]](_0x267d[3])) || (message[_0x267d[5]][_0x267d[4]](_0x267d[3])&& ((message[_0x267d[6]]!== false&& message[_0x267d[6]][_0x267d[7]]!== 0)|| message[_0x267d[8]]!== false)))){if(message[_0x267d[5]][_0x267d[4]](_0x267d[3])&& (message[_0x267d[6]]!== false&& message[_0x267d[6]][_0x267d[7]]!== 0)){message[_0x267d[6]][_0x267d[31]](async (_0x497dx1)=>{if(message[_0x267d[14]][_0x267d[13]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]=== _0x497dx1[_0x267d[12]](_0x267d[11])[0]){ await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Config[_0x267d[0]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}})}else {if(message[_0x267d[5]][_0x267d[4]](_0x267d[3])&& message[_0x267d[8]]!== false){if(message[_0x267d[8]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]=== message[_0x267d[14]][_0x267d[13]][_0x267d[5]][_0x267d[12]](_0x267d[11])[0]){ await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Config[_0x267d[0]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}}else { await message[_0x267d[14]][_0x267d[30]](message[_0x267d[5]],Config[_0x267d[0]]+ _0x267d[16]+ (AFK[_0x267d[17]]!== false?_0x267d[18]+ Lang[_0x267d[19]]+ _0x267d[20]+ AFK[_0x267d[17]]+ _0x267d[21]:_0x267d[22])+ (AFK[_0x267d[23]]!== 0?_0x267d[18]+ Lang[_0x267d[24]]+ _0x267d[20]+ secondsToHms(Math[_0x267d[26]](( new Date())[_0x267d[25]]()/ 1000)- AFK[_0x267d[23]])+ _0x267d[27]:_0x267d[22]),MessageType[_0x267d[28]],{quoted:message[_0x267d[29]]})}}}}
 }));
 
 WhatsAlexa.addCommand({pattern: 'afk ?(.*)', fromMe: true, deleteCommand: false, desc: Lang.AFK_DESC}, (async (message, match) => {     
