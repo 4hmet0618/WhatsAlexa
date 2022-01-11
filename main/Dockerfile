@@ -1,7 +1,9 @@
-FROM node:latest
+FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/TOXIC-DEVIL/WhatsAlexa
+RUN git clone https://github.com/TOXIC-DEVIL/WhatsAlexa /root/WhatsAlexa
 WORKDIR /root/WhatsAlexa/
-RUN npm install
+ENV TZ=Europe/Istanbul
+RUN npm install supervisor -g
+RUN yarn install --no-audit
 
-CMD ["node", "alexa.js"]
+CMD ["node", "bot.js"]
