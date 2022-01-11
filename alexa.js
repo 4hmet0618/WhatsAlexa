@@ -1,15 +1,15 @@
 const fs = require("fs");
 const path = require("path");
-const events = require("./events");
+const events = require("./main/events");
 const chalk = require('chalk');
-const config = require('./config');
+const config = require('./main/config');
 const pkg = require('./package.json');
 const axios = require('axios');
 const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence, ChatModification} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./alexa/');
+const {Message, StringSession, Image, Video} = require('./main/base/');
 const { DataTypes } = require('sequelize');
-const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
+const { GreetingsDB, getMessage } = require("./main/db/greetings");
 const got = require('got');
 
 const heroku = new Heroku({
