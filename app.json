@@ -1,3 +1,4 @@
+< !--
 {
     "name": "WhatsAlexa",
     "description": "WhatsAlexa is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Baileys. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].",
@@ -105,4 +106,4 @@
     "buildpacks": [{
       "url": "heroku-community/apt"
       }]
-  }
+  } -->
