@@ -1,7 +1,7 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let {spawnSync} = require('child_process');
-let Config = require('../main/config');
+let Config = require('../config');
 let chalk = require('chalk');
 let fs = require('fs');
 let axios = require('axios');

@@ -1,5 +1,5 @@
-let WhatsAlexa = require('../main/events');
-let Config = require('../main/config');
+let WhatsAlexa = require('../events');
+let Config = require('../config');
 let fs = require('fs');
 let {MessageType} = require('@adiwajshing/baileys');
 let Language = require('../language');

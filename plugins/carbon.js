@@ -1,8 +1,8 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let axios = require('axios');
 let fs = require('fs');
-let Config = require('../main/config');
+let Config = require('../config');
 let Language = require('../language');
 let Lang = Language.getString('carbon');
 

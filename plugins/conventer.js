@@ -1,4 +1,4 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType,Mimetype} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let ffmpeg = require('fluent-ffmpeg');
@@ -7,7 +7,7 @@ let cwebp = require('cwebp-bin');
 let cheerio = require('cheerio');
 let Axios = require('axios');
 let FormData = require('form-data');
-let Config = require('../main/config');
+let Config = require('../config');
 let Language = require('../language');
 let Lang = Language.getString('conventer');
 
