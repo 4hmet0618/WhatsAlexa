@@ -83,6 +83,7 @@ If you are concerned about that, Then you can just use bot on a [Fake Number](ht
 
 There are **50+** Features/Commands Are there in **this bot!**
 
+<!--
 ## ❗️ Disclaimer ❗️
 
 The name **'WhatsAlexa'**, Which includes the word
@@ -93,6 +94,7 @@ This is **extremely wrong**. This is not modified version of **'WhatsAsena'**
 Also You can check our **[Dockerfile](https://github.com/TOXIC-DEVIL/WhatsAlexa/blob/master/alexa/Dockerfile).**
 **We use 'node:latest' instead of 'whatsasena:latest'**.
 So please don't Compare **WhatsAlexa** and **WhatsAsena** Wrongly.
+-->
 
 ## ⚠ Warning ⚠
 
