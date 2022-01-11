@@ -1,10 +1,10 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('@adiwajshing/baileys');
 let Axios = require('axios');
 let fs = require('fs');
 let ffmpeg = require('fluent-ffmpeg');
 let {execFile} = require('child_process');
-let CON = require('../main/config');
+let CON = require('../config');
 let Language = require('../language'); 
 let Lang = Language.getString('whois'); 
 

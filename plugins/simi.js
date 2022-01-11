@@ -1,8 +1,8 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let got = require('got');
-let Config = require('../main/config');
+let Config = require('../config');
 let td = Config.WORKTYPE == 'public' ? false : true
 let Language = require('../language');
 let Lang = Language.getString('ai');

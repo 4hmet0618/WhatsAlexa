@@ -1,10 +1,10 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let axios = require('axios');
 let request = require('request');
 let got = require("got");
-let Config = require('../main/config');
+let Config = require('../config');
 let Language = require('../language');
 let Lang = Language.getString('unvoice');
 

@@ -1,8 +1,8 @@
 let {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
-let WhatsAlexa = require('../main/events');
-let Config = require('../main/config');
+let WhatsAlexa = require('../events');
+let Config = require('../config');
 let Language = require('../language');
-let FilterDb = require('../main/db/filters');
+let FilterDb = require('./sql/filters');
 let FLang = Language.getString('filters');
 let Lang = Language.getString('group');
 let PLang = Language.getString('profile');

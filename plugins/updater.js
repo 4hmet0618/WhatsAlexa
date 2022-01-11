@@ -1,9 +1,9 @@
 let simpleGit = require('simple-git');
 let git = simpleGit();
 let fs = require('fs');
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType} = require('@adiwajshing/baileys');
-let Config = require('../main/config');
+let Config = require('../config');
 let exec = require('child_process').exec;
 let Heroku = require('heroku-client');
 let { PassThrough } = require('stream');

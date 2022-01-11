@@ -1,10 +1,10 @@
-let WhatsAlexa = require('../main/events');
+let WhatsAlexa = require('../events');
 let {MessageType,Mimetype} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let ffmpeg = require('fluent-ffmpeg');
 let {execFile} = require('child_process');
 let cwebp = require('cwebp-bin');
-let Config = require('../main/config');
+let Config = require('../config');
 let Language = require('../language');
 let Lang = Language.getString('unvoice');
 
