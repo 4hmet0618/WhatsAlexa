@@ -1,5 +1,5 @@
-let WhatsAlexa = require('../events');
-let Config = require('../config');
+let WhatsAlexa = require('../main/events');
+let Config = require('../main/config');
 let {MessageType} = require('@adiwajshing/baileys');
 let exec = require('child_process').exec;
 let os = require("os");
