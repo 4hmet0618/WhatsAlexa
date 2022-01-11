@@ -1,5 +1,5 @@
-let WhatsAlexa = require('../events');
-let Config = require('../config');
+let WhatsAlexa = require('../main/events');
+let Config = require('../main/config');
 let Heroku = require('heroku-client');
 let {secondsToHms} = require('./afk');
 let got = require('got');
