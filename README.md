@@ -1,5 +1,5 @@
 ## 🤗 WhatsAlexa
-**📢 WhatsAlexa has ended and current users can continue but others will not able to deploy alexa. Thank You for using WhatsAlexa 😚**
+**📢 WhatsAlexa has ended and no one can use alexa again. Thank You for using WhatsAlexa 😚**
 
 ## 🤔 What is WhatsAlexa?! 🤔
 
