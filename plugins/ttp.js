@@ -1,8 +1,8 @@
-let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../main/events');
 let { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 let fs = require('fs');
 let axios = require('axios');
-let Config = require('../config');
+let Config = require('../main/config');
 let td = Config.WORKTYPE == 'public' ? false : true
 let Language = require('../language');
 let Lang = Language.getString('ttp');

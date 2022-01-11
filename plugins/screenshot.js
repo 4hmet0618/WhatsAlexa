@@ -1,10 +1,10 @@
-let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../main/events');
 let {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let axios = require('axios');
 let request = require('request');
 let got = require("got");
-let Config = require('../config');
+let Config = require('../main/config');
 let Language = require('../language');
 let Lang = Language.getString('webss');
 
