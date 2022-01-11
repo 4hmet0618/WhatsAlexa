@@ -1,6 +1,6 @@
-let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../main/events');
 let {MessageType, Mimetype} = require('@adiwajshing/baileys');
-let Config = require('../config');
+let Config = require('../main/config');
 let fs = require('fs');
 let got = require('got');
 let FormData = require('form-data');
