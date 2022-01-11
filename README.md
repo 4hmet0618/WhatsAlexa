@@ -1,4 +1,8 @@
+## 🤗 WhatsAlexa
+**📢 WhatsAlexa has ended and current users can continue but others will not able to deploy alexa. Thank You for using WhatsAlexa 😚**
+
 ## 🤔 What is WhatsAlexa?! 🤔
+
 - **WhatsAlexa** is a Helper WhatsApp Bot Written with **[Baileys](https://github.com/adiwajshing/baileys)** Which is hosted on **[Heroku Cloud Server](https://heroku.com).** Also Alexa has a **Lot of Commands/Features,** Including **Artificial Intelligence [ AI ] Features/Commands.**
 
 # [![Typing SVG](https://bit.ly/3tSyaJK)](https://github.com/TOXIC-DEVIL)
