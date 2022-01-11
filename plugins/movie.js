@@ -1,7 +1,7 @@
 let {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
-let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../main/events');
 let fs = require('fs');
-let Config = require('../config');
+let Config = require('../main/config');
 let got = require('got');
 let axios = require('axios');
 let td = Config.WORKTYPE == 'public' ? false : true
