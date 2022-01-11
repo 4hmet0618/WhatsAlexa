@@ -1,0 +1,128 @@
+## 🤔 What is WhatsAlexa?! 🤔
+- **WhatsAlexa** is a Helper WhatsApp Bot Written with **[Baileys](https://github.com/adiwajshing/baileys)** Which is hosted on **[Heroku Cloud Server](https://heroku.com).** Also Alexa has a **Lot of Commands/Features,** Including **Artificial Intelligence [ AI ] Features/Commands.**
+
+# [![Typing SVG](https://bit.ly/3tSyaJK)](https://github.com/TOXIC-DEVIL)
+
+<div align="center">
+  <img src="https://rotf.lol/Whats-Alexa-Gif-TOXIC-DEVIL" width="200" height="200">
+  <h1>WhatsAlexa</h1>
+</div>
+<p align="center">
+    WhatsAlexa is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Baileys. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].
+    <br>
+
+<p align="center">
+<img src="https://img.shields.io/github/repo-size/TOXIC-DEVIL/WhatsAlexa?color=green&label=Repo%20total%20size&style=plastic">
+<a href="https://github.com/TOXIC-DEVIL/WhatsAlexa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TOXIC-DEVIL/WhatsAlexa?color=blue&style=flat-square"></a>
+<a href="https://github.com/TOXIC-DEVIL/WhatsAlexa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TOXIC-DEVIL/WhatsAlexa?color=pink&style=flat-square"></a>
+
+
+## ⚙️ Setup ⚙️
+```
+bash <(curl -L rotf.lol/WhatsAlexa-Toxic-Devil)
+```
+```
+pkg install git
+pkg install nodejs
+git clone https://github.com/TOXIC-DEVIL/WhatsAlexa
+cd WhatsAlexa
+npm i @adiwajshing/baileys
+npm i chalk
+node alexa.js
+```
+  
+## 💫 Deploy & Run WhatsAlexa 💫
+
+**If You are Lazy to Download Termux or Concerned About Memory leaks, You can Use Below Button 'Run on Replit' to scan QR Code, Also Laptop/Computer is More Confortable To Scan the QR Code.**
+
+[![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAlexa)](https://tinyurl.com/WhatsAlexa-QR)
+
+**You must Deploy on Heroku by clicking 'Deploy to Heroku' Button.**
+
+[![Deploy-WhatsAlexa](https://www.herokucdn.com/deploy/button.svg)](https://tinyurl.com/WhatsAlexa-Deploy)
+
+## ❔ F A Q ( Frequently Asked Questions. ) ❔
+
+### 💬 Can you read my messages?
+
+This project is open source so all the codes are clear. Neither less nor more; you can look what you want. **We absolutely do not have access to your accounts.**
+
+### 🔒 What about our security?
+
+If you are concerned about security, you can install it on your own computer. If you think someone else has captured your data, simply click on **Whatsapp> Three Dots> Whatsapp Web> Logout** from all sessions button.
+  
+### 💸 Is it paid?
+
+**Of course not.** It will never happen. 
+    
+### 😵 I am facing some errors/bug in Alexa, I want to request a feature or I have some doubts about Alexa, How can I Clear them all? 
+  
+You can clear all of them, by contacting the developer, **[TOXIC DEVIL](https://wa.me/2349053311892?text=I%20Have%20Seen%20Your%20WhatsAlexa%20Ropo%20😍%20I%20Got%20Your%20Number%20From%20GitHub%20😉)**
+
+### 📃 How Can I Download the Bot Script?
+
+You Can **[Click Here](https://github.com/TOXIC-DEVIL/WhatsAlexa/archive/refs/heads/master.zip)** To Download The **Bot Script**.. This Script is Free, So **Don't Sell This Script in High Price.**
+
+### ⚙ Is this a Heroku bot?
+
+**Of Course** This bot works on **heroku.**
+
+### 📺 What is the language of this bot?
+
+There are **3 Languages** in this Bot - **English ( US ), Malayalam ( India ), Indonasian ( Indonasia ).** You can choose the language, **Its up to you.**
+
+### ❗ Does our number will banned from WhatsApp by Using This Bot?
+
+If you are concerned about that, Then you can just use bot on a [Fake Number](https://youtu.be/lFL6vFSKpEY). **[Also Read This](https://github.com/TOXIC-DEVIL/WhatsAlexa#-warning-)**
+
+### 🔄 Can I Edit this bot?
+
+**As per the license, You Can** But We Will Not Support. 🙃
+
+### ❔ How many features/commands are there in this bot?
+
+There are **50+** Features/Commands Are there in **this bot!**
+
+<!--
+## ❗️ Disclaimer ❗️
+
+The name **'WhatsAlexa'**, Which includes the word
+**'Whats'**, confuses users because of the name of the familiar
+bot **WhatsAsena**. The users are thinking that the
+**'WhatsAlexa' bot is a modified version of the 'WhatsAsena'**.
+This is **extremely wrong**. This is not modified version of **'WhatsAsena'**
+Also You can check our **[Dockerfile](https://github.com/TOXIC-DEVIL/WhatsAlexa/blob/master/alexa/Dockerfile).**
+**We use 'node:latest' instead of 'whatsasena:latest'**.
+So please don't Compare **WhatsAlexa** and **WhatsAsena** Wrongly.
+-->
+
+## ⚠ Warning ⚠
+
+```
+By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
+WhatsAlexa or we are not responsible for your account, 
+This bot is intended for the purpose of having fun with some fun commands 
+and group management with some helpfull commands.
+
+If  you ended up spamming groups, getting reported left and right, 
+and you ended up in being fight with WhatsApp
+and at the end WhatsApp Team deleted your account. DON'T BLAME US.
+
+No personal support will be provided / We won't spoon feed you. 
+If you need help
+you can contact TOXIC DEVIL ( Developer ) by clicking the name below - 
+```
+**[TOXIC DEVIL](https://wa.me/2349053311892?text=I%20Have%20Seen%20Your%20WhatsAlexa%20Ropo%20😍%20I%20Got%20Your%20Number%20From%20GitHub%20😉)**
+
+## 👨‍💻 Developers & Contributors 👨‍💻
+
+ [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |
+----|
+[TOXIC-DEVIL](https://github.com/TOXIC-DEVIL)  | 
+Author: Developer, Base, Bug Fixes, Commits, Modules | 
+
+## ✨ Special Features ✨
+
+- [x] Alexa Voice Chatbot [ This is not amazon alexa ]
+
+- [x] simi simi chatbot
