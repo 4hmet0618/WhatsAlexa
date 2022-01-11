@@ -8,7 +8,7 @@
 * So the half credit of this File/Code is to Phaticusthiccy/WhatsAsena           *
 **********************************************************************************
                                                                                                                                                                      */
-let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../main/events');
 let ffmpeg = require('fluent-ffmpeg');
 let fs = require('fs');
 let https = require('https');
@@ -16,7 +16,7 @@ let googleTTS = require('google-translate-tts');
 let { MessageType, Mimetype, MessageOptions } = require('@adiwajshing/baileys');
 let Language = require('../language');
 let Lang = Language.getString('voicy');
-let conf = require('../config');
+let conf = require('../main/config');
 let axios = require('axios')
 let axiosdef = require("axios").default;
 let os = require('os')
