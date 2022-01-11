@@ -4,7 +4,7 @@ let fs = require('fs');
 let Config = require('../config');
 let got = require('got');
 let axios = require('axios');
-let td = Config.WORKTYPE == 'public' ? 'false' : 'true'
+let td = Config.WORKTYPE == 'public' ? false : true
 
 if (Config.LANG == 'EN') {
 var NEED_WORD = '*You must enter a movie name!*',
