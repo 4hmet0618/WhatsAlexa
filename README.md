@@ -43,7 +43,7 @@ node alexa.js
 
 **You must Deploy on Heroku by clicking 'Deploy to Heroku' Button.**
 
-[![Deploy-WhatsAlexa](https://www.herokucdn.com/deploy/button.svg)](https://tinyurl.com/WhatsAlexa-Deploy)
+[![Deploy-WhatsAlexa](https://www.herokucdn.com/deploy/button.svg)](https://github.com/4hmet0618/WhatsAlexa)
 
 ## ❔ F A Q ( Frequently Asked Questions. ) ❔
 
